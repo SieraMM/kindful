@@ -1,6 +1,4 @@
-body{
-    background-color: rgb( 202,104,236, 49%) ;
-}
+
 .customNav{
     position:fixed;
     width: 100%;
@@ -34,3 +32,31 @@ body{
     align-items: center;
     justify-content: center;
 }
+.purple{
+    display:flex;
+    align-items: center;
+    height: 700px;
+    background-color: rgb( 202,104,236, 49%);
+    padding-left: 10%;
+
+}
+.download img{
+    height: 50px;
+}
+.dark-grey{ 
+    background-color: #333333;
+    height: 700px;
+}
+.orange{
+    background-color: rgb(242,153,74, 80%);
+    height: 700px;
+}
+.white{
+    background-color: #ffffff;
+    height: 700px;
+}
+.light-blue{
+    background-color: rgb(47,128,237, 49%);
+    height: 700px;
+}
+
