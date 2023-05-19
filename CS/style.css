@@ -1,0 +1,36 @@
+body{
+    background-color: rgb( 202,104,236, 49%) ;
+}
+.customNav{
+    position:fixed;
+    width: 100%;
+    background-color: #ffffff !important;
+    z-index: 10;
+
+
+}
+.navbar-nav{
+    margin-left: auto;
+    margin-right: 0 !important;
+}
+.navbar-brand img{
+    padding-right: 15px; 
+    width: 65px;
+}
+
+.nav-item{
+    margin: 0px 15px;
+}
+
+.btn{
+    display:flex;
+    width: 223px;
+    height: 46px;
+    color: #000000;
+    background-color: #ffffff;
+    border: 3px solid #000000;
+    box-shadow: 2px 2px #404040;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+}
