@@ -58,7 +58,9 @@ p {
     align-items: center;
     justify-content: center;
 }
-
+.hover_u:hover{
+    text-decoration: underline;
+}
 .title {
     padding-bottom: 0px;
 }
