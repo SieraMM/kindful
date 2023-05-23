@@ -1,2 +1,2 @@
 # kindful
-The Landing Page to our app
+The Landing Page to fictious app "Kindful"
