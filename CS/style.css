@@ -171,13 +171,109 @@ p {
 }
 
 .light-blue {
-
+   
     align-items: center;
     justify-content: center;
     background-color: rgb(47, 128, 237, 49%);
     height: 736px;
 }
 
+
+@media screen and (max-width: 1078px) {
+    body{
+        width: 100%;
+    }
+    .orange, .white, .light-blue {
+        height:875px;
+        padding-left:0px;
+    }
+    .purple{
+        height:875px;
+        
+    }
+    .dark-grey{
+        padding-left: 0px;
+        flex-direction: column;
+        height: 1000px;
+    }
+    .orange{
+        padding-left: 0px;
+        flex-direction:column;
+        height: 1000px;
+
+    }
+    .mobile{
+        margin-top: 200px;
+       justify-content:center;
+       align-items: center;
+    }
+    .mobile p{
+        text-align:center;
+    }
+    .watch_pic{
+       margin-left: 300px;
+       margin-top:100px;
+        
+    }
+    .mobile_orange{
+        margin-top: 50px;
+        justify-content:center;
+       align-items: center;
+    }
+    .green_smiley {
+        margin-bottom: 200px;
+        height: 276px;
+    }
+
+    .smiley_flower {
+    
+        margin-top: 375px;
+       margin-left: -50px;
+    }
+
+    .squiggly_top {
+        
+        margin-top: -300px;
+        z-index: 10;
+    }
+    .phone{ 
+        margin-top: 150px;
+        margin-left:100px;
+        z-index: 11;
+        
+    }
+    .phone_mock1 {
+        margin-top: -200px;
+        height: 518px;
+        z-index:10;
+    }
+
+    .phone_mock2 {
+        margin-top: -50px;
+        margin-left: -150px;
+        z-index:10;
+        height: 518px;
+
+    }
+
+    .yellow_guy {
+        margin-top: -150px;
+        margin-bottom: 100px;
+        height: 270px;
+    }
+
+    .green_flower {
+        margin-left: 370px;
+    }
+
+    .squiggly_bottom {
+        width: 251px;
+        margin-left: 250px;
+        transform: rotate(90deg);
+        
+    }
+
+}
 @media screen and (max-width: 600px) {
     .orange, .white, .light-blue {
         height:875px;
